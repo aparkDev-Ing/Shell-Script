@@ -1,0 +1,26 @@
+#!/bin/bash
+
+#i=0
+#while ((i<10))
+#do
+#	echo "index is $i"
+#	((i++))
+#done
+
+
+i=0
+while [ $i -lt 10 ]
+
+do
+
+	echo "index is $i"
+	let 'i++'
+done
+
+x=10
+until [ $x -lt 1 ]
+
+do
+	echo "index is $x"
+	((x--))
+done
